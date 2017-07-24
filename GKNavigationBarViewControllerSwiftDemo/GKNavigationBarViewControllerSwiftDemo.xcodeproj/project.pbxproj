@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7939FC781F25CC2D00FB067D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939FC771F25CC2D00FB067D /* AppDelegate.swift */; };
+		7939FC7A1F25CC2D00FB067D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939FC791F25CC2D00FB067D /* ViewController.swift */; };
+		7939FC7D1F25CC2D00FB067D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7939FC7B1F25CC2D00FB067D /* Main.storyboard */; };
+		7939FC7F1F25CC2D00FB067D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7939FC7E1F25CC2D00FB067D /* Assets.xcassets */; };
+		7939FC821F25CC2D00FB067D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7939FC801F25CC2D00FB067D /* LaunchScreen.storyboard */; };
+		7939FC8D1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939FC8C1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.swift */; };
+		7939FC981F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939FC971F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.swift */; };
+		7939FCA61F25CC3A00FB067D /* GKNavigationBarViewControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7939FCA51F25CC3A00FB067D /* GKNavigationBarViewControllerSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7939FC891F25CC2E00FB067D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7939FC6C1F25CC2D00FB067D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7939FC731F25CC2D00FB067D;
+			remoteInfo = GKNavigationBarViewControllerSwiftDemo;
+		};
+		7939FC941F25CC2E00FB067D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7939FC6C1F25CC2D00FB067D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7939FC731F25CC2D00FB067D;
+			remoteInfo = GKNavigationBarViewControllerSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7939FC741F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKNavigationBarViewControllerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939FC771F25CC2D00FB067D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7939FC791F25CC2D00FB067D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7939FC7C1F25CC2D00FB067D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7939FC7E1F25CC2D00FB067D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7939FC811F25CC2D00FB067D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7939FC831F25CC2D00FB067D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7939FC881F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKNavigationBarViewControllerSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939FC8C1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKNavigationBarViewControllerSwiftDemoTests.swift; sourceTree = "<group>"; };
+		7939FC8E1F25CC2E00FB067D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7939FC931F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKNavigationBarViewControllerSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939FC971F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKNavigationBarViewControllerSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		7939FC991F25CC2E00FB067D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7939FCA51F25CC3A00FB067D /* GKNavigationBarViewControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = GKNavigationBarViewControllerSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7939FC711F25CC2D00FB067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939FCA61F25CC3A00FB067D /* GKNavigationBarViewControllerSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC851F25CC2E00FB067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC901F25CC2E00FB067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7939FC6B1F25CC2D00FB067D = {
+			isa = PBXGroup;
+			children = (
+				7939FC761F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */,
+				7939FC8B1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests */,
+				7939FC961F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests */,
+				7939FC751F25CC2D00FB067D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7939FC751F25CC2D00FB067D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7939FC741F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo.app */,
+				7939FC881F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.xctest */,
+				7939FC931F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7939FC761F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7939FCA51F25CC3A00FB067D /* GKNavigationBarViewControllerSwift.framework */,
+				7939FC771F25CC2D00FB067D /* AppDelegate.swift */,
+				7939FC791F25CC2D00FB067D /* ViewController.swift */,
+				7939FC7B1F25CC2D00FB067D /* Main.storyboard */,
+				7939FC7E1F25CC2D00FB067D /* Assets.xcassets */,
+				7939FC801F25CC2D00FB067D /* LaunchScreen.storyboard */,
+				7939FC831F25CC2D00FB067D /* Info.plist */,
+			);
+			path = GKNavigationBarViewControllerSwiftDemo;
+			sourceTree = "<group>";
+		};
+		7939FC8B1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7939FC8C1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.swift */,
+				7939FC8E1F25CC2E00FB067D /* Info.plist */,
+			);
+			path = GKNavigationBarViewControllerSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		7939FC961F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7939FC971F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.swift */,
+				7939FC991F25CC2E00FB067D /* Info.plist */,
+			);
+			path = GKNavigationBarViewControllerSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7939FC731F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939FC9C1F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemo" */;
+			buildPhases = (
+				7939FC701F25CC2D00FB067D /* Sources */,
+				7939FC711F25CC2D00FB067D /* Frameworks */,
+				7939FC721F25CC2D00FB067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKNavigationBarViewControllerSwiftDemo;
+			productName = GKNavigationBarViewControllerSwiftDemo;
+			productReference = 7939FC741F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7939FC871F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939FC9F1F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemoTests" */;
+			buildPhases = (
+				7939FC841F25CC2E00FB067D /* Sources */,
+				7939FC851F25CC2E00FB067D /* Frameworks */,
+				7939FC861F25CC2E00FB067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7939FC8A1F25CC2E00FB067D /* PBXTargetDependency */,
+			);
+			name = GKNavigationBarViewControllerSwiftDemoTests;
+			productName = GKNavigationBarViewControllerSwiftDemoTests;
+			productReference = 7939FC881F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7939FC921F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939FCA21F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemoUITests" */;
+			buildPhases = (
+				7939FC8F1F25CC2E00FB067D /* Sources */,
+				7939FC901F25CC2E00FB067D /* Frameworks */,
+				7939FC911F25CC2E00FB067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7939FC951F25CC2E00FB067D /* PBXTargetDependency */,
+			);
+			name = GKNavigationBarViewControllerSwiftDemoUITests;
+			productName = GKNavigationBarViewControllerSwiftDemoUITests;
+			productReference = 7939FC931F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7939FC6C1F25CC2D00FB067D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高坤";
+				TargetAttributes = {
+					7939FC731F25CC2D00FB067D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85SKD6C7ZZ;
+						ProvisioningStyle = Automatic;
+					};
+					7939FC871F25CC2E00FB067D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85SKD6C7ZZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7939FC731F25CC2D00FB067D;
+					};
+					7939FC921F25CC2E00FB067D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85SKD6C7ZZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7939FC731F25CC2D00FB067D;
+					};
+				};
+			};
+			buildConfigurationList = 7939FC6F1F25CC2D00FB067D /* Build configuration list for PBXProject "GKNavigationBarViewControllerSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7939FC6B1F25CC2D00FB067D;
+			productRefGroup = 7939FC751F25CC2D00FB067D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7939FC731F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */,
+				7939FC871F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests */,
+				7939FC921F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7939FC721F25CC2D00FB067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939FC821F25CC2D00FB067D /* LaunchScreen.storyboard in Resources */,
+				7939FC7F1F25CC2D00FB067D /* Assets.xcassets in Resources */,
+				7939FC7D1F25CC2D00FB067D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC861F25CC2E00FB067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC911F25CC2E00FB067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7939FC701F25CC2D00FB067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939FC7A1F25CC2D00FB067D /* ViewController.swift in Sources */,
+				7939FC781F25CC2D00FB067D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC841F25CC2E00FB067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939FC8D1F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939FC8F1F25CC2E00FB067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939FC981F25CC2E00FB067D /* GKNavigationBarViewControllerSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7939FC8A1F25CC2E00FB067D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7939FC731F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */;
+			targetProxy = 7939FC891F25CC2E00FB067D /* PBXContainerItemProxy */;
+		};
+		7939FC951F25CC2E00FB067D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7939FC731F25CC2D00FB067D /* GKNavigationBarViewControllerSwiftDemo */;
+			targetProxy = 7939FC941F25CC2E00FB067D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7939FC7B1F25CC2D00FB067D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7939FC7C1F25CC2D00FB067D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7939FC801F25CC2D00FB067D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7939FC811F25CC2D00FB067D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7939FC9A1F25CC2E00FB067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7939FC9B1F25CC2E00FB067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7939FC9D1F25CC2E00FB067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GKNavigationBarViewControllerSwiftDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7939FC9E1F25CC2E00FB067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GKNavigationBarViewControllerSwiftDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7939FCA01F25CC2E00FB067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNavigationBarViewControllerSwiftDemo.app/GKNavigationBarViewControllerSwiftDemo";
+			};
+			name = Debug;
+		};
+		7939FCA11F25CC2E00FB067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNavigationBarViewControllerSwiftDemo.app/GKNavigationBarViewControllerSwiftDemo";
+			};
+			name = Release;
+		};
+		7939FCA31F25CC2E00FB067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GKNavigationBarViewControllerSwiftDemo;
+			};
+			name = Debug;
+		};
+		7939FCA41F25CC2E00FB067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKNavigationBarViewControllerSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKNavigationBarViewControllerSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GKNavigationBarViewControllerSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7939FC6F1F25CC2D00FB067D /* Build configuration list for PBXProject "GKNavigationBarViewControllerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939FC9A1F25CC2E00FB067D /* Debug */,
+				7939FC9B1F25CC2E00FB067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7939FC9C1F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939FC9D1F25CC2E00FB067D /* Debug */,
+				7939FC9E1F25CC2E00FB067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7939FC9F1F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939FCA01F25CC2E00FB067D /* Debug */,
+				7939FCA11F25CC2E00FB067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7939FCA21F25CC2E00FB067D /* Build configuration list for PBXNativeTarget "GKNavigationBarViewControllerSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939FCA31F25CC2E00FB067D /* Debug */,
+				7939FCA41F25CC2E00FB067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7939FC6C1F25CC2D00FB067D /* Project object */;
+}
