@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name                    = "GKNavigationBarViewControllerSwift"
 
-  s.version                 = "1.0.2"
+  s.version                 = "1.0.3"
 
   s.summary                 = "iOS自定义导航栏-导航栏联动，Swift版本"
 
