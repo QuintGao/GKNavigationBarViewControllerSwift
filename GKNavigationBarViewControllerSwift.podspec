@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GKNavigationBarViewControllerSwift"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "iOS自定义导航栏-导航栏联动，Swift版本"
 
   s.homepage     = "https://github.com/QuintGao/GKNavigationBarViewControllerSwift"
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc  = true
   s.source_files  = 'GKNavigationBarViewControllerSwift/**/*.{swift,h}'
-  s.resource      = 'GKNavigationBarViewControllerSwift/Resources'
+  s.resource      = 'GKNavigationBarViewControllerSwift/Resource'
 
 end
