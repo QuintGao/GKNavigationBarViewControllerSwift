@@ -1,23 +1,29 @@
 Pod::Spec.new do |s|
 
-  s.name         = "GKNavigationBarViewControllerSwift"
-  s.version      = "1.0.1"
-  s.summary      = "iOS自定义导航栏-导航栏联动，Swift版本"
+  s.name                    = "GKNavigationBarViewControllerSwift"
 
-  s.homepage     = "https://github.com/QuintGao/GKNavigationBarViewControllerSwift"
+  s.version                 = "1.0.2"
 
-  s.license      = "MIT"
+  s.summary                 = "iOS自定义导航栏-导航栏联动，Swift版本"
 
-  s.authors            = { "高坤" => "1094887059@qq.com" }
-  s.social_media_url   = "https://github.com/QuintGao"
+  s.homepage                = "https://github.com/QuintGao/GKNavigationBarViewControllerSwift"
 
-  s.platform     = :ios, "8.0"
-  s.ios.deployment_target = "8.0"
+  s.license                 = "MIT"
 
-  s.source       = { :git => "https://github.com/QuintGao/GKNavigationBarViewControllerSwift.git", :tag => s.version.to_s }
+  s.authors                 = { "高坤" => "1094887059@qq.com" }
 
-  s.requires_arc  = true
-  s.source_files  = 'GKNavigationBarViewControllerSwift/**/*.{swift,h}'
-  s.resource      = 'GKNavigationBarViewControllerSwift/Resource'
+  s.social_media_url        = "https://github.com/QuintGao"
+
+  s.platform                = :ios, "8.0"
+
+  s.ios.deployment_target   = "8.0"
+
+  s.source                  = { :git => "https://github.com/QuintGao/GKNavigationBarViewControllerSwift.git", :tag => s.version.to_s }
+
+  s.requires_arc            = true
+
+  s.source_files            = 'GKNavigationBarViewControllerSwift/**/*.{swift,h}'
+
+  s.resource                = 'GKNavigationBarViewControllerSwift/Resource'
 
 end
